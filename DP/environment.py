@@ -149,7 +149,7 @@ class Environment():
 
     def reset(self):
         # Locate the agent at lower left corner.
-        self.agent_state = State(self.row_length - 1, 0)
+        self.agent_state = State(self.row_length - 1, 1)
         return self.agent_state
 
     def step(self, action):
